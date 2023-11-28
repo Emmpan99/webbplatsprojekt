@@ -1,0 +1,319 @@
+/* Färgkoder enligt Grafiska profil
+Mörkröd = #8e412e
+Ljusröd = ba6f4d
+Mörkare beige = #e6cebc
+Ljusgrön = #a2a182
+Mörkgrön = #687259
+Ljusare beige = #f4ece2
+Bakgrundfärg = #f5efe7
+*/
+
+* {
+    /* eller… box-sizing: content-box; */
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-padding-top: 1.25rem;
+    scroll-behavior: smooth; 
+
+    /* border: 2px solid orange; (Används bara för att urskilja var elementen/sektionerna/boxarna är)*/ 
+    
+}
+
+body{
+    background-color: #f5efe7;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'sans-serif' , sans-serif;
+  line-height: 1.25em;
+}
+
+p {
+    font-family: 'sans-serif', sans-serif;
+    line-height: 1.35em;
+    font-size: 1em;
+    margin: 15px 0 30px;
+}
+
+/*---------------------------Ny nav i headern-------------------------------------*/
+
+nav {                /* Dimentioner på navbar */
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{                /* Om vi ska ha logga som hemknapp */
+    width: 30px;
+}
+
+nav ul{                 /* Dekor runt listan */
+    list-style: none;
+    background-color: #687259;
+}
+
+nav ul li{               /* Dekor runt objekt i listan */
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{              /* Dekor på a länk */
+    display: block;
+    padding: 20px 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul li a:hover{         /* Dekor vid hovring */
+    color: #e6cebc8a;
+}
+
+nav ul li:hover ul.dropdown{    /* Visning av rullgardin */
+    display: block;
+}
+
+nav ul.dropdown{              /* Rullgardinen */
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+} 
+
+/* ------------------- Hero section i body! ---------------------- */  
+
+/* Eftersom jag inte vet hur det ska se ut så la jag tillfälliga mått och färger så man ser formen på sektionen*/
+
+.hero{
+    height: 95vh;     /* Täcka "helskärm" eller en ruta? */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.792), rgba(0, 0, 0, 0.412)), url(suitcase.jpg);
+    background-size: cover;
+    color: #e6cebc;
+    box-sizing: border-box;
+} 
+
+.hero content{
+    max-width: 100%;
+    
+
+}
+.hero h1{               /* Stor rubrik */
+    line-height: 1.5em;
+    margin: 0 8px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.hero h3{              /* Mindre rubrik */
+    line-height: 2em;
+    margin: 18px;
+    padding: 6px;
+    font-size: medium;
+    text-align: left;
+}
+
+.hero p{                 /* Brödtext */
+    line-height: 1.35em;
+    font-size: 1em;
+    margin: 8px;
+    padding: 6px;
+}
+
+/*--------------------------Knappar-------------------------*/
+
+
+.btn{                   /* Placering av knappar */
+    text-align: start;
+    padding: 10px;
+}
+
+.btn a{                /* Dekor till knappar */
+    display: inline-block;   
+    background-color: #e6cebc;
+    color: #8e412e;
+    padding: 16px; 
+    margin: 16px;
+    border-radius: 25px; 
+}
+
+.btn a:hover {        /* Dekor vid hovring */
+    background-color: #a2a182;
+    transition: 0.35s;
+}
+
+/*----------------------------Collapse------------------------*/
+.accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #F4ECe2;
+    background-color: #687259;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    overflow: visible;
+  }
+  
+  .accordion label {
+    display: block;
+  }
+
+  .accordion {
+    margin-bottom: 1em;
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    padding: 15px;
+    border: 3px solid #687259;
+    border-top: 0;
+  }
+  
+  .accordion .question {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: sans-serif;
+  }
+  
+  .accordion label {
+    color: #F4ECe2;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 15px;
+    background: #687259;
+  }
+  
+  .accordion label:hover,
+  .accordion label:focus {
+    background: #A2A182;
+  }
+
+  /*
+  .accordion .handle label:before {
+    font-family: 'fontawesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+  }
+  */
+  
+  .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+    content: "\f078";
+  }
+  /*-----------------------------Collapse slut---------------------------*/
+
+
+/* ID OCH KLASSNAMN I ALLA SIDOR!
+
+INDEX:
+section class="hero"
+div class="btn"
+section class="miljo"
+div class="miljo-atervinning"
+div class="miljo-konsumtion"
+div class="miljo-lokal"
+section class="preview-products"
+div class="preview-products img"
+div class="btn"
+section class="preview-about">
+img src class="miljo logo"
+
+ABOUT:
+section class="vision"
+section class="blogpost"
+span class="bold"
+div class="btn"
+
+PRODUKTER:
+section id="Sittmöbler"
+section id="Dekorationer"
+section id="Dekorationer">
+
+KONTAKT:
+img src= class="iglogo"
+img src= class="fblogo"
+section class="faq"
+section class="accordion"
+input type="checkbox" name="collapse" id="question(1-10)
+h2 class="question"
+div class="content"
+
+*/
+
+/*----------------gamla hero i header----------------*/
+/* 
+.head {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    max-width: 100%;
+}
+
+.header-content h1 {
+    color: # ;
+    font-size: 40px;
+    padding-bottom: 5px;
+    width: 700px;
+}
+
+.header-content h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: green ;
+}
+
+.header-content p{
+    color: black;
+    width: 550px;
+}
+
+.header-knapp {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    padding: 8px 25px;
+    background: # ;
+    border: 2px solid # ;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 6) 0px 0px 50px -5px; /* Behöver fixas… 
+    font-size: 16px;
+    color: # ;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.header-knapp:hover {
+    background: # ;
+    color: # ;
+    border: 2px solid # ;
+} */
