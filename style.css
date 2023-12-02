@@ -104,8 +104,7 @@ nav ul.dropdown{              /* Rullgardinen */
     background-size: cover;
     color: #e6cebc;
     box-sizing: border-box;
-} 
-
+}
 .hero content{
     max-width: 100%;
     
@@ -226,6 +225,51 @@ nav ul.dropdown{              /* Rullgardinen */
     content: "\f078";
   }
   /*-----------------------------Collapse slut---------------------------*/
+  /*-------------------------------Footer----------------------------------*/
+footer{
+    background-color: #687259;
+    color: #a2a182;
+    padding: 20px;
+    font-family: 'sans-serif', sans-serif;
+    line-height: 1.35em;
+    font-size: 1em;
+    margin: 15px 0 30px;
+    display: flex;
+  }
+
+  .navfooter ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  }
+
+  .navfooter li a{
+    display: block;
+    color: #A2A182;
+    font-size: 1em;
+    font-weight: 1;
+  }
+
+  .navfooter li a:hover{
+    color:#f4ece2;
+    text-decoration: underline;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: flex-end;
+    padding:5px;
+  }
+
+  .menyfooter{
+    justify-content: center;
+    margin-left: 6%;
+  }
+
+  footer h4{
+    margin-bottom: 20px;
+  }
 
 
 /* ID OCH KLASSNAMN I ALLA SIDOR!
