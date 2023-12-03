@@ -17,10 +17,10 @@
                 <li><a href="about.html">Om oss</a></li>
                 <li><a href="products.html">Produkter</a>
                     <ul class="dropdown">                  <!--Man låter li-taggen vara öppen för att lägga till underlista i produkt-->
-                        <li><a href="#">Sittmöbler</a></li>
-                        <li><a href="#">Dekoration</a></li>
-                        <li><a href="#">Sängramar</a></li>
-                        <li><a href="#">Övrigt</a></li>
+                        <li><a href="#Sittmobler">Sittmöbler</a></li>
+                        <li><a href="#Dekoration">Dekoration</a></li>
+                        <li><a href="#Sangramar">Sängramar</a></li>
+                        <li><a href="#Ovrigt">Övrigt</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.html">Kontakt</a></li> 
@@ -47,9 +47,41 @@
 
 <main>
 
+    <section>
 
-    <section id="Sittmobler">
-        <h2>Sittmöbler</h2>
+        <section class="category-container">
+        <div class="category-box">
+            <img src="images/chair_icon.jpg" alt="Stolikon" width="64" height="64">
+            <div class="category-text">
+                <h4>Sittmöbler</h4>
+            </div>
+        </div>
+
+        <div class="category-box">
+            <img src="images/flower_pot_icon.jpg" alt="Växtikon" width="64" height="64">
+            <div class="category-text">
+                <h4>Dekoration</h4>
+            </div>
+        </div>
+
+        <div class="category-box">
+            <img src="images/bed_icon.jpg" alt="Sängikon" width="64" height="64">
+            <div class="category-text">
+                <h4>Sängramar</h4>
+            </div>
+        </div>
+
+        <div class="category-box">
+            <img src="images/house_icon.jpg" alt="Husikon" width="64" height="64">
+            <div class="category-text">
+                <h4>Övrigt</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <h2 id="Sittmobler">Sittmöbler</h2> <!--Underrubrik som även innehåller "id" kopplade till länkarna i innehållslistan ovan-->
         <section class="product-container">
         <div>
             <h3>Fåtölj</h3>
@@ -60,7 +92,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/Armchair.jpg" alt="Bild på fåtölj" width="" height="">
+            <img src="images/Armchair.jpg" alt="Bild på fåtölj" width="240" height="240">
             <div class="product-text">
                 <h4>Fåtölj</h4>
                     <p>Pris: 1 299 kr</p>
@@ -76,7 +108,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/Sofa.jpg" alt="Bild på soffa" width="" height="">
+            <img src="images/Sofa.jpg" alt="Bild på soffa" width="240" height="200">
             <div class="product-text">
                 <h4>Soffa</h4>
                     <p>Pris: 2 500 kr</p>
@@ -91,7 +123,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/chair1.jpg" alt="Bild på stol" width="" height="">
+            <img src="images/chair1.jpg" alt="Bild på stol" width="240" height="240">
             <div class="product-text">
                 <h4>Stol</h4>
                     <p>Pris: 299 kr</p>
@@ -99,7 +131,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/chair4.jpg" alt="Bild på stol" width="" height="">
+            <img src="images/chair4.jpg" alt="Bild på stol" width="240" height="240">
             <div class="product-text">
                 <h4>Stol</h4>
                     <p>Pris: 299 kr</p>
@@ -113,7 +145,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/chair2.jpg" alt="Bild på stol" width="" height="">
+            <img src="images/chair2.jpg" alt="Bild på stol" width="240" height="240">
             <div class="product-text">
                 <h4>Stol</h4>
                     <p>Pris: 199 kr</p>
@@ -122,8 +154,8 @@
 
     </section>
 
-    <section id="Dekorationer">
-        <h2>Dekorationer</h2>
+    <section>
+        <h2 id="Dekoration">Dekoration</h2>
         <section class="product-container">
         <div>
             <h3>Kudde</h3>
@@ -133,7 +165,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/Pillow.jpg" alt="Bild på kudde" width="" height="">
+            <img src="images/Pillow.jpg" alt="Bild på kudde" width="240" height="240">
             <div class="product-text">
                 <h4>Kudde</h4>
                     <p>Pris: 149 kr</p>
@@ -141,7 +173,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/Pillow_2.jpg" alt="Bild på kudde" width="" height="">
+            <img src="images/Pillow_2.jpg" alt="Bild på kudde" width="240" height="240">
             <div class="product-text">
                 <h4>Kudde</h4>
                     <p>Pris: 149 kr</p>
@@ -154,7 +186,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/FlowerPot.jpg" alt="Bild på kruka" width="" height="">
+            <img src="images/FlowerPot.jpg" alt="Bild på kruka" width="240" height="240">
             <div class="product-text">
                 <h4>Kruka</h4>
                     <figcaption>Pris: 199 kr</figcaption>
@@ -162,7 +194,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/plant.jpg" alt="Bild på kruka" width="" height="">
+            <img src="images/plant.jpg" alt="Bild på kruka" width="240" height="236">
             <div class="product-text">
                 <h4>Kruka</h4>
                     <p>Pris: 99 kr</p>
@@ -170,7 +202,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/potwithplant.jpg" alt="Bild på kruka" width="" height="">
+            <img src="images/potwithplant.jpg" alt="Bild på kruka" width="240" height="240">
             <div class="product-text">
                 <h4>Kruka</h4>
                     <p>Pris: 149 kr</p>
@@ -178,7 +210,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/recycle_tire.jpg" alt="Bild på kruka" width="" height="">
+            <img src="images/recycle_tire.jpg" alt="Bild på kruka" width="240" height="240">
             <div class="product-text">
                 <h4>Kruka</h4>
                     <p>Pris: 199 kr</p>
@@ -186,7 +218,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/recycle_bin.jpg" alt="Bild på kruka" width="" height="">
+            <img src="images/recycle_bin.jpg" alt="Bild på kruka" width="216" height="216">
             <div class="product-text">
                 <h4>Kruka</h4>
                     <p>Pris: 199 kr</p>
@@ -200,7 +232,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/lamp1.jpg" alt="Bild på lampa" width="" height="">
+            <img src="images/lamp1.jpg" alt="Bild på lampa" width="240" height="240">
             <div class="product-text">
                 <h4>Lampa</h4>
                     <p>Pris: 249 kr</p>
@@ -209,8 +241,8 @@
 
     </section>
 
-    <section id="Sangramar">
-        <h2>Sängramar</h2>
+    <section>
+        <h2 id="Sangramar">Sängramar</h2>
         <section class="product-container">
         <div>
         <p>Vår GreenDream säng är skapad i Sverige av återvunnet trä, vilket ger varje säng en unik och naturlig charm. 
@@ -219,7 +251,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/bedframe1.jpg" alt="Bild på säng med sängram" width="" height="">
+            <img src="images/bedframe1.jpg" alt="Bild på säng med sängram" width="240" height="240">
             <div class="product-text">
                 <h4>Sängram</h4>
                     <p>Pris: 4 999 kr</p>
@@ -227,7 +259,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/bedframe2.jpg" alt="Bild på säng med sängram" width="" height="">
+            <img src="images/bedframe2.jpg" alt="Bild på säng med sängram" width="240" height="240">
             <div class="product-text">
                 <h4>Sängram</h4>
                     <p>Pris: 4 999 kr</p>
@@ -236,8 +268,8 @@
 
     </section>
 
-    <section id="Ovrigt">
-        <h2>Övrigt</h2>
+    <section>
+        <h2 id="Ovrigt">Övrigt</h2>
         <section class="product-container">
         <div>
         <p>Våra hållbara träfönster ger ditt hem en unik design och naturlig charm. 
@@ -246,7 +278,7 @@
         </div>
 
         <div class="product-box">
-            <img src="images/Window.jpg" alt="Bild på fönster i trä" width="" height="">
+            <img src="images/Window.jpg" alt="Bild på fönster i trä" width="240" height="240">
             <div class="product-text">
                 <h4>Fönster</h4>
                     <p>Pris: 1 999 kr</p>
@@ -255,11 +287,55 @@
 
     </section>
 
+    <div class="btn"> <!--Knapp med länk till toppen av sidan.-->
+        <a href="#">Till toppen av sidan</a> 
+    </div>
+
 </main>
 
-    <footer>
+<footer>
+    <section>
+      <h4>Kontakt</h4>
+      <p>Mailadress: recycledesign@support.se<br>Telefonnumer: +46795945945<br>Öppettider: mån - lör 9-17, sön 10-15</p>
+      <h4>Adress</h4>
+      <p>789 Björkgatan<br>Ljusvik, 543 21<br>Skogsby, Sverige</p>
+    </section>
 
-    </footer>
+    <section class="menyfooter">
+      <div class="navfooter">
+        <h4>Meny</h4>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="about.html">Om oss</a></li>
+          <li><a href="contact.html">Blogg</a></li> <!--Måste länka rätt-->
+          <li><a href="products.html">Produkter</a>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="contact.html">Kundsupport</a></li> <!--Måste länka rätt-->
+        </ul>
+      </div>
+    </section>
+
+    <section class="productfooter"> <!--Ingen css kopplad men la sig perfekt??-->
+      <div class="navfooter">
+        <h4>Produkter</h4> <!--Behöver länka rätt-->
+        <ul>
+          <li><a href="index.html">Sittmöbler</a></li>
+          <li><a href="about.html">Sängramar</a></li>
+          <li><a href="contact.html">Dekoration</a></li>
+          <li><a href="products.html">Övrigt</a>
+        </ul>
+      </div>
+    </section>
+
+    <figure class="icons">
+      <a href="https://www.instagram.com/"><img src="Ikoner-20231128T131859Z-001/instagramround.png" alt="iglogo"
+          width="40" height="40"></a>
+    </figure>
+    <figure class="icons">
+      <a href="https://www.facebook.com/"><img src="Ikoner-20231128T131859Z-001/facebookround.png" alt="fblogo"
+          width="40" height="40"></a>
+    </figure>
+</footer>
 
 </body>
 </html>
