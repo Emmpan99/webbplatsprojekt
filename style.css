@@ -712,6 +712,15 @@ nav ul.dropdown{
 
 /* Bloggen */
 
+.hero-content-blog {
+  margin-left: 100px;
+  width: 50%;
+}
+
+.hero-content-blog h2{
+  margin-bottom: 6.5%;
+}
+
 .bloggposts {
   padding: 4% 0% 8% 0%;
   display: flex;
@@ -736,8 +745,16 @@ nav ul.dropdown{
 }
 
 .content-box h3 {
-  padding: 5% 0%;
+  padding: 5% 0% 0% 0%;
   font-size: 2.2rem;
+}
+
+.bloggposts .content-box .datum {
+  font-size: 14px;
+  font-style: italic;
+  color: #7b7b7bc5;
+  letter-spacing: 0.8px;
+  padding-bottom: 4%;
 }
 
 
