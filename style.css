@@ -739,3 +739,99 @@ nav ul.dropdown{
   padding: 5% 0%;
   font-size: 2.2rem;
 }
+
+
+/*---------index-preview---------*/
+
+.miljo{
+  min-height: 85vh;
+  padding-top: 200px;
+}
+
+.box{
+  width: fit-content;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+
+}
+
+@media (min-width: 850px) {
+  .box{
+    flex-direction: row;
+  }
+}
+
+.miljo-box{
+  padding: 20px;
+}
+
+.miljo h4{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.miljo p{
+  padding: 0 20px;
+  text-align: center;
+}
+
+.logo{
+  width: 60px;
+  padding: 10px;
+}
+/*-----------------------------------*/
+.preview-products{
+  padding: 10px;
+  height: fit-content;
+}
+
+.product-wrapper ul{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+}
+
+@media (min-width: 850px) {
+  .product-wrapper ul{
+    flex-direction: row;
+  }
+}
+
+.title{
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.preview-products ul{
+  padding: 40px 8px;
+  list-style: none;
+  display: flex;
+}
+
+.preview-products li{
+  padding: 2px;
+}
+
+.preview.btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.preview-about{
+  min-height: 50vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.preview-about p{
+  padding: 0 30%;
+}
