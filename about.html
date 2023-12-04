@@ -10,9 +10,12 @@
 <body>
 
     <header>
-        <nav> <!--Ordningen i menyn/navigering (om oss, produkter, kontakt osv) kan vi enkelt ändra på-->
-            <ul> 
-                <li><a href="index.html"><img src="bildmapp/Icons/house.png" alt="" class="logo"></a></li>  <!-- Logotyp istället för hem-text right?-->
+        <nav>
+            <div class="logo"> 
+                <img src="images/recycledesigns-logo.svg" alt="">
+            </div> <!--Ordningen i menyn/navigering (om oss, produkter, kontakt osv) kan vi enkelt ändra på-->
+            <ul>  <!-- Logotyp istället för hem-text right?-->
+                <li><a href="index.html">Hem</a></li>
                 <li><a href="about.html">Om oss</a></li>
                 <li><a href="products.html">Produkter</a>
                     <ul class="dropdown">                  <!--Man låter li-taggen vara öppen för att lägga till underlista i produkt-->
@@ -22,11 +25,22 @@
                         <li><a href="#">Övrigt</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Kontakt</a></li> 
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="blog.html">Blogg</a></li>
             </ul>
         </nav>
     
-    </header>
+
+    <section class="hero2">
+        <div class="hero-content2">
+         <h3>Hållbar design</h3>
+         <h2>Att Skapa Möbler <br> med Miljön i Fokus</h2>  
+            <a href="products.html" class="button-dark">Våra produkter</a>    
+        <a href="contact.html" class="button-light">Kontakt oss</a>
+       </div>
+    </section>
+
+    </header>    
 
 
     <section class="vision">
