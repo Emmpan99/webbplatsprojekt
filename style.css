@@ -602,7 +602,7 @@ nav ul.dropdown{
 }
 */
 
-
+/*----------------------------About--------------------------*/
 .vision {
   display: flex;
   width: 65%;
@@ -698,4 +698,37 @@ nav ul.dropdown{
 .blog-text a:hover {
   color: #8e412e;
   transition: all ease 0.3s;
+}
+
+/*----------------------------Blog-------------------------*/
+
+
+/* Bloggen */
+
+.bloggposts {
+  padding: 4% 0% 8% 0%;
+  display: flex;
+  width: 71%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.content-box {
+  background-color: #ffffff;
+  padding: 4% 11% 7% 11%;
+  margin: -170px 0px 100px 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.062);
+}
+
+.content-box ul li {
+  margin: 22px 35px;
+}
+
+.content-box h3 {
+  padding: 5% 0%;
+  font-size: 2.2rem;
 }
