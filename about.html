@@ -1,131 +1,145 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycled Designs Om oss</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <div class="logo"> 
-                <img src="images/recycledesigns-logo.svg" alt="">
-            </div> <!--Ordningen i menyn/navigering (om oss, produkter, kontakt osv) kan vi enkelt ändra på-->
-            <ul>  <!-- Logotyp istället för hem-text right?-->
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="about.html">Om oss</a></li>
-                <li><a href="products.html">Produkter</a>
-                    <ul class="dropdown">                  <!--Man låter li-taggen vara öppen för att lägga till underlista i produkt-->
-                        <li><a href="#">Sittmöbler</a></li>
-                        <li><a href="#">Dekoration</a></li>
-                        <li><a href="#">Sängramar</a></li>
-                        <li><a href="#">Övrigt</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Kontakt</a></li>
-                <li><a href="blog.html">Blogg</a></li>
-            </ul>
-        </nav>
-    
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="pictures/recycledesigns-logo.svg" alt="">
+      </div> <!--Ordningen i menyn/navigering (om oss, produkter, kontakt osv) kan vi enkelt ändra på-->
+      <ul> <!-- Logotyp istället för hem-text right?-->
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="about.html">Om oss</a></li>
+        <li><a href="products.html">Produkter</a>
+          <ul class="dropdown"> <!--Man låter li-taggen vara öppen för att lägga till underlista i produkt-->
+            <li><a href="products.html#sittmobler">Sittmöbler</a></li>
+            <li><a href="products.html#dekoration">Dekoration</a></li>
+            <li><a href="products.html#sangramar">Sängramar</a></li>
+            <li><a href="products.html#ovrigt">Övrigt</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="blog.html">Blogg</a></li>
+      </ul>
+    </nav>
 
-    <section class="hero2">
-        <div class="hero-content2">
-         <h3>Hållbar design</h3>
-         <h2>Att Skapa Möbler <br> med Miljön i Fokus</h2>  
-            <a href="products.html" class="button-dark">Våra produkter</a>    
-        <a href="contact.html" class="button-light">Kontakt oss</a>
-       </div>
+
+    <section class="hero"
+      style="background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.792) 20%, rgba(0, 0, 0, 0)), url(pictures/sofa-hero.png);">
+      <div class="hero-content">
+        <h3>Hållbar design</h3>
+        <h2>Att Skapa Möbler <br> med Miljön i Fokus</h2>
+        <a href="products.html" class="button-green-dark">Våra produkter</a>
+        <a href="contact.html" class="button-green-light">Kontakt oss</a>
+      </div>
     </section>
 
-    </header>    
+  </header>
 
 
-    <main>
+  <main>
 
-        <section class="vision">
-            <h3>Recycled Designs</h3>
-            <h2>Vår Vision</h2>
-            <p>Vi på Recycle Design har en gemensam vision om att förena kärleken till design och hållbarhet. Vi delar en övertygelse om att varje objekt har en historia att berätta, och att återvunnet material har potentialen att omvandlas till något vackert och funktionellt. Med ett öga för detaljer började vi utforska lokala källor för återvunnet material, från övergivna träbalkar till gamla fönster och dörrar. Varje objekt som de använde hade en unik historia och en särskild patina som de ville föra vidare i sina skapelser.
-            </p>
-        </section>
+    <section class="vision">
+      <h3>Recycled Designs</h3>
+      <h2>Vår Vision</h2>
+      <p>Vi på Recycle Design har en gemensam vision om att förena kärleken till design och hållbarhet. Vi delar en
+        övertygelse om att varje objekt har en historia att berätta, och att återvunnet material har potentialen att
+        omvandlas till något vackert och funktionellt. Med ett öga för detaljer började vi utforska lokala källor för
+        återvunnet material, från övergivna träbalkar till gamla fönster och dörrar. Varje objekt som de använde hade en
+        unik historia och en särskild patina som de ville föra vidare i sina skapelser.
+      </p>
+    </section>
 
 
-        <section id="blog">
-            <h5>Senaste blogginläggen</h5>
-            <h3>Hållbarhetsbloggen</h3>
-                <section class="blog-container">
-                <div class="blog-box">
-                    <img src="images/Produktbilder/lamp1.jpg" alt="text text text">
-                    <div class="blog-text">
-                    <a href="#" class="blog-title">Design av Möbler med Hållbarhet som Prioritet</a>
-                    <p>I dagens värld är det viktigare än någonsin att vara medveten om vår påverkan på miljön. Ett område  där vi kan göra en betydande skillnad är...</p>
-                    <a href="#">Läs mer</a>
-                </div>
-                </div>
-        
-                <div class="blog-box">
-                    <img src="images/Produktbilder/bedframe2.jpg" alt="text text text">
-                    <div class="blog-text">
-                    <a href="#" class="blog-title">Skapa Skönhet från Återvunnet: En Inbjudan till Medveten Konsumtion</a>
-                    <p>I en värld där vi alla strävar efter att göra mer medvetna val för miljön, har hållbar konsumtion blivit  en central del av våra beslut när vi inreder våra hem. Ett företag har valt att...</p>
-                    <a href="#">Läs mer</a>
-                </div>
-                </div>
-        
-                <div class="blog-box">
-                    <img src="images/Produktbilder/Armchair.png" alt="text text text">
-                    <div class="blog-text">
-                    <a href="#" class="blog-title">Från Vision till Verklighet: Vår Resa - att Bygga Upp Lokalen till Vår första Butik</a>
-                    <p>Att bygga upp och förvandla en lokal till en butik är en spännande resa som kräver både  kreativitet och hårt arbete. Det är en chans att skapa en unik plats som inte bara...</p>
-                    <a href="#">Läs mer</a>
-                </div>
-            </div>
-            </section>
-        </main>
-        <footer>
-            <section>
-              <h4>Kontakt</h4>
-              <p>Mailadress: recycledesign@support.se<br>Telefonnumer: +46795945945<br>Öppettider: mån - lör 9-17, sön 10-15</p>
-              <h4>Adress</h4>
-              <p>789 Björkgatan<br>Ljusvik, 543 21<br>Skogsby, Sverige</p>
-            </section>
-        
-            <section class="menyfooter">
-              <div class="navfooter">
-                <h4>Meny</h4>
-                <ul>
-                  <li><a href="index.html">Hem</a></li>
-                  <li><a href="about.html">Om oss</a></li>
-                  <li><a href="contact.html">Blogg</a></li> <!--Måste länka rätt-->
-                  <li><a href="products.html">Produkter</a>
-                  <li><a href="contact.html">Kontakt</a></li>
-                  <li><a href="contact.html">Kundsupport</a></li> <!--Måste länka rätt-->
-                </ul>
-              </div>
-            </section
-            <section class="productfooter"> <!--Ingen css kopplad men la sig perfekt??-->
-              <div class="navfooter">
-                <h4>Produkter</h4> <!--Behöver länka rätt-->
-                <ul>
-                  <li><a href="index.html">Sittmöbler</a></li>
-                  <li><a href="about.html">Sängramar</a></li>
-                  <li><a href="contact.html">Dekorationer</a></li>
-                  <li><a href="products.html">Övrigt</a>
-                </ul>
-              </div>
-            </section>
-        
-            <figure class="icons">
-              <a href="https://www.instagram.com/"><img src="Ikoner-20231128T131859Z-001/instagramround.png" alt="iglogo"
-                  width="40" height="40"></a>
-            </figure>
-            <figure class="icons">
-              <a href="https://www.facebook.com/"><img src="Ikoner-20231128T131859Z-001/facebookround.png" alt="fblogo"
-                  width="40" height="40"></a>
-            </figure>
-          </footer>
-        </body>
-        </html>
+    <section id="blog">
+      <h5>Senaste blogginläggen</h5>
+      <h3>Hållbarhetsbloggen</h3>
+      <section class="blog-container">
+        <div class="blog-box">
+          <img src="images/Produktbilder/lamp1.jpg" alt="text text text">
+          <div class="blog-text">
+            <a href="#" class="blog-title">Design av Möbler med Hållbarhet som Prioritet</a>
+            <p>I dagens värld är det viktigare än någonsin att vara medveten om vår påverkan på miljön. Ett område där
+              vi kan göra en betydande skillnad är...</p>
+            <a href="#">Läs mer</a>
+          </div>
+        </div>
+
+        <div class="blog-box">
+          <img src="images/Produktbilder/bedframe2.jpg" alt="text text text">
+          <div class="blog-text">
+            <a href="#" class="blog-title">Skapa Skönhet från Återvunnet: En Inbjudan till Medveten Konsumtion</a>
+            <p>I en värld där vi alla strävar efter att göra mer medvetna val för miljön, har hållbar konsumtion blivit
+              en central del av våra beslut när vi inreder våra hem. Ett företag har valt att...</p>
+            <a href="#">Läs mer</a>
+          </div>
+        </div>
+
+        <div class="blog-box">
+          <img src="images/Produktbilder/Armchair.png" alt="text text text">
+          <div class="blog-text">
+            <a href="#" class="blog-title">Från Vision till Verklighet: Vår Resa - att Bygga Upp Lokalen till Vår första
+              Butik</a>
+            <p>Att bygga upp och förvandla en lokal till en butik är en spännande resa som kräver både kreativitet och
+              hårt arbete. Det är en chans att skapa en unik plats som inte bara...</p>
+            <a href="#">Läs mer</a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h4>Kontakt</h4>
+      <p>Mailadress: recycledesign@support.se<br>Telefonnumer: +46795945945<br>Öppettider: mån - lör 9-17, sön 10-15</p>
+      <h4>Adress</h4>
+      <p>789 Björkgatan<br>Ljusvik, 543 21<br>Skogsby, Sverige</p>
+    </section>
+
+    <section class="menyfooter">
+      <div class="navfooter">
+        <h4>Meny</h4>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="about.html">Om oss</a></li>
+          <li><a href="blogg.html">Blogg</a></li> <!--TODO: Måste länka rätt-->
+          <li><a href="products.html">Produkter</a>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="#Kundsupport">Kundsupport</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="productfooter"> <!--Ingen css kopplad men la sig perfekt??-->
+      <div class="navfooter">
+        <h4>Produkter</h4>
+        <ul>
+          <li><a href="#sittmobler">Sittmöbler</a></li>
+          <li><a href="#dekoration">Dekorationer</a></li>
+          <li><a href="#sangramar">Sängramar</a></li>
+          <li><a href="#ovrigt">Övrigt</a>
+        </ul>
+      </div>
+    </section>
+
+    <figure class="icons">
+      <a href="https://www.instagram.com/"><img src="bildmapp/Icons/instagramround.png" alt="iglogo" width="40"
+          height="40"></a>
+    </figure>
+    <figure class="icons">
+      <a href="https://www.facebook.com/"><img src="bildmapp/Icons/facebookround.png" alt="fblogo" width="40"
+          height="40"></a>
+    </figure>
+  </footer>
+</body>
+
+</html>
