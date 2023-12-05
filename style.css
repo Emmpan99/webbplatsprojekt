@@ -127,10 +127,12 @@ nav ul.dropdown {              /* Rullgardinen */
     color: #e6cebc;
     box-sizing: border-box;
 }
+
 .hero-content {
     max-width: 100%;
     padding-left: 10%;
 }
+
 .hero h1 {               /* Stor rubrik */
     line-height: 1.5em;
     margin: 0 8px;
