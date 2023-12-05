@@ -127,7 +127,7 @@ nav ul.dropdown {              /* Rullgardinen */
     color: #e6cebc;
     box-sizing: border-box;
 }
-.hero content {
+.hero-content {
     max-width: 100%;
     padding-left: 10%;
 }
@@ -616,6 +616,10 @@ footer {
     font-size: 1em;
    /* margin: 15px 0 30px;  */
     display: flex;
+}
+
+footer p {
+  color: #a2a182;
 }
 
 .navfooter ul {
