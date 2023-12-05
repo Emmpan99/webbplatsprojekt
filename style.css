@@ -792,7 +792,7 @@ nav ul.dropdown{
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
+  padding: 9%;
 
 }
 
@@ -804,6 +804,8 @@ nav ul.dropdown{
 
 .homepage-box{
   padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .homepage h4{
