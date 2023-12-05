@@ -282,20 +282,20 @@ nav ul.dropdown {              /* Rullgardinen */
   padding: 30px;
 }
 
-.followus button-red-light {
+.followusbtn .button-red-light {
 text-align: center;
 margin: 20px 15px 70px 15px;
 }
 
-.followus button-red-light a {
+.followusbtn .button-red-light a {
   color: #8e412e;
 }
 
-.followus button-red-light a:hover {
+.followusbtn .button-red-light a:hover {
   color:#e6cebc;
 }
 
-.followus button-red-light img {
+.followusbtn .button-red-light img {
 vertical-align: bottom;
 }
 
