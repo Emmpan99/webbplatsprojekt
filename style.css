@@ -261,6 +261,10 @@ nav ul.dropdown {              /* Rullgardinen */
 /*--------------------------Kontakt---------------------------*/
 
 /*placering av kontaktsida*/
+body {
+  background-color: #f5efe7;
+}
+
 .contactpage {    
   margin: auto;
   text-align: center;
