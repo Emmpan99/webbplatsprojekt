@@ -54,15 +54,28 @@ p {
 nav {                /* Dimentioner på navbar */
     max-width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{                /* Om vi ska ha logga som hemknapp */
-    width: 30px;
+    width: 34%;
+    position: relative;
+    align-content: left;
+    padding-left: 8%;
+    padding-top: 2%;
+    background-color: white;
 }
 
 nav ul{                 /* Dekor runt listan */
     list-style: none;
     background-color: #687259;
+    width: 100%;
+    text-align: right;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+    padding-right: 8%;
+    background-color: white;
 }
 
 nav ul li{               /* Dekor runt objekt i listan */
@@ -71,15 +84,15 @@ nav ul li{               /* Dekor runt objekt i listan */
 }
 
 nav ul li a{              /* Dekor på a länk */
-    display: block;
+    display: flex;
     padding: 20px 25px;
-    color: rgb(0, 0, 0);
+    color: #687259;
     text-align: center;
     font-size: 20px;
 }
 
 nav ul li a:hover{         /* Dekor vid hovring */
-    color: #e6cebc8a;
+    color: #a2a182ad;
 }
 
 nav ul li:hover ul.dropdown{    /* Visning av rullgardin */
@@ -91,6 +104,7 @@ nav ul.dropdown{              /* Rullgardinen */
     position: absolute;
     z-index: 1;
     display: none;
+    text-align: left;
 } 
 
 /* ------------------- Hero section i body! ---------------------- */  
@@ -98,11 +112,12 @@ nav ul.dropdown{              /* Rullgardinen */
 /* Eftersom jag inte vet hur det ska se ut så la jag tillfälliga mått och färger så man ser formen på sektionen*/
 
 .hero{
-    height: 95vh;     /* Täcka "helskärm" eller en ruta? */
+    height: 120vh;     /* Täcka "helskärm" eller en ruta? */
     width: 100%;
     display: flex;
     align-items: center;
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.792), rgba(0, 0, 0, 0.412)), url(suitcase.jpg);
+    margin-top: -8%;
+    max-width: 100%;
     background-size: cover;
     color: #e6cebc;
     box-sizing: border-box;
