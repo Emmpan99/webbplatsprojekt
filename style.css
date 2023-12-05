@@ -127,7 +127,7 @@ nav ul.dropdown {              /* Rullgardinen */
 
 .hero h1 {               /* Sidans huvudrubrik */
   font-size: 5rem;
-  margin-bottom: 2%;
+  padding: 1% 0% 5% 0%;
   color: #f4ece2;
 }
 
@@ -139,10 +139,9 @@ nav ul.dropdown {              /* Rullgardinen */
 
 .hero h3 {              /* Mindre rubrik */
     line-height: 2em;
+    font-size: 24px;
+    letter-spacing: 2px;
     color: #f4ece2;
-    margin: 18px;
-    padding: 6px;
-    font-size: medium;
     text-align: left;
 }
 
