@@ -830,12 +830,6 @@ div class="content"
   padding: 2px;
 }
 
-.preview.btn {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
 .preview-about{
   min-height: 50vh;
   padding-top: 50px;
