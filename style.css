@@ -99,7 +99,6 @@ nav ul li a:hover {         /* Dekor vid hovring */
 
 /* --------------------------- Secondary Navigation (Dropdown) ----------------- */
 
-
 nav ul li:hover ul.dropdown {    /* Visning av rullgardin */
     display: block;
 }
@@ -114,10 +113,8 @@ nav ul.dropdown {              /* Rullgardinen */
 
 /* ------------------- Hero section i body! ---------------------- */  
 
-/* Eftersom jag inte vet hur det ska se ut så la jag tillfälliga mått och färger så man ser formen på sektionen*/
-
 .hero {
-    height: 120vh;     /* Täcka "helskärm" eller en ruta? */
+    height: 120vh;     
     width: 100%;
     display: flex;
     align-items: center;
@@ -162,7 +159,6 @@ nav ul.dropdown {              /* Rullgardinen */
     margin: 8px;
     padding: 6px;
 }
-
 
 /*--------------------------Knappar-------------------------*/
 
@@ -238,30 +234,7 @@ nav ul.dropdown {              /* Rullgardinen */
   border-radius: 25px; 
 }
 
-/* Tidigare knappar
-.btn { 
-    text-align: start;
-    padding: 10px;
-}
-
-.btn a { 
-    display: inline-block;   
-    background-color: #e6cebc;
-    color: #8e412e;
-    padding: 16px; 
-    margin: 16px;
-    border-radius: 25px; 
-}
-
-.btn a:hover { 
-    background-color: #a2a182;
-    transition: 0.35s;
-}
-*/
-
-
 /*--------------------------Kontakt---------------------------*/
-
 /*placering av kontaktsida*/
 .contactpage {    
   margin: auto;
@@ -373,7 +346,6 @@ padding-bottom: 50px;
 
 /*----------------------------About--------------------------*/
 
-
 .vision {
   display: flex;
   width: 65%;
@@ -471,12 +443,7 @@ padding-bottom: 50px;
   transition: all ease 0.3s;
 }
 
-
-
 /*----------------------------Blog-------------------------*/
-
-
-
 /* Bloggen */
 
 .hero-content-blog {
