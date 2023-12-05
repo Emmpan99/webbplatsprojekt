@@ -797,7 +797,7 @@ nav ul.dropdown{
 }
 
 @media (min-width: 850px) {
-  .homepage-box{
+  .homepagebox{
     flex-direction: row;
   }
 }
