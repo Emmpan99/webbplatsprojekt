@@ -124,8 +124,7 @@ nav ul.dropdown{              /* Rullgardinen */
 }
 .hero content{
     max-width: 100%;
-    
-
+    padding-left: 10%;
 }
 .hero h1{               /* Stor rubrik */
     line-height: 1.5em;
