@@ -21,11 +21,11 @@ Bakgrundfärg = #f5efe7
     
 }
 
-body{
+body {
     background-color: #f5efe7;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: 600;
 }
@@ -58,7 +58,7 @@ nav {                /* Dimentioner på navbar */
     justify-content: space-between;
 }
 
-.logo{                /* Om vi ska ha logga som hemknapp */
+.logo {                /* Om vi ska ha logga som hemknapp */
     width: 34%;
     position: relative;
     align-content: left;
@@ -67,7 +67,7 @@ nav {                /* Dimentioner på navbar */
     background-color: white;
 }
 
-nav ul{                 /* Dekor runt listan */
+nav ul {                 /* Dekor runt listan */
     list-style: none;
     background-color: #687259;
     width: 100%;
@@ -78,12 +78,12 @@ nav ul{                 /* Dekor runt listan */
     background-color: white;
 }
 
-nav ul li{               /* Dekor runt objekt i listan */
+nav ul li {               /* Dekor runt objekt i listan */
     display: inline-block;
     position: relative;
 }
 
-nav ul li a{              /* Dekor på a länk */
+nav ul li a {              /* Dekor på a länk */
     display: flex;
     padding: 20px 25px;
     color: #687259;
@@ -91,15 +91,15 @@ nav ul li a{              /* Dekor på a länk */
     font-size: 20px;
 }
 
-nav ul li a:hover{         /* Dekor vid hovring */
+nav ul li a:hover {         /* Dekor vid hovring */
     color: #a2a182ad;
 }
 
-nav ul li:hover ul.dropdown{    /* Visning av rullgardin */
+nav ul li:hover ul.dropdown {    /* Visning av rullgardin */
     display: block;
 }
 
-nav ul.dropdown{              /* Rullgardinen */
+nav ul.dropdown {              /* Rullgardinen */
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -111,7 +111,7 @@ nav ul.dropdown{              /* Rullgardinen */
 
 /* Eftersom jag inte vet hur det ska se ut så la jag tillfälliga mått och färger så man ser formen på sektionen*/
 
-.hero{
+.hero {
     height: 120vh;     /* Täcka "helskärm" eller en ruta? */
     width: 100%;
     display: flex;
@@ -122,18 +122,18 @@ nav ul.dropdown{              /* Rullgardinen */
     color: #e6cebc;
     box-sizing: border-box;
 }
-.hero content{
+.hero content {
     max-width: 100%;
     padding-left: 10%;
 }
-.hero h1{               /* Stor rubrik */
+.hero h1 {               /* Stor rubrik */
     line-height: 1.5em;
     margin: 0 8px;
     padding: 10px;
     font-size: x-large;
 }
 
-.hero h3{              /* Mindre rubrik */
+.hero h3 {              /* Mindre rubrik */
     line-height: 2em;
     margin: 18px;
     padding: 6px;
@@ -141,7 +141,7 @@ nav ul.dropdown{              /* Rullgardinen */
     text-align: left;
 }
 
-.hero p{                 /* Brödtext */
+.hero p {                 /* Brödtext */
     line-height: 1.35em;
     font-size: 1em;
     margin: 8px;
@@ -151,12 +151,12 @@ nav ul.dropdown{              /* Rullgardinen */
 /*--------------------------Knappar-------------------------*/
 
 
-.btn{                   /* Placering av knappar */
+.btn {                   /* Placering av knappar */
     text-align: start;
     padding: 10px;
 }
 
-.btn a{                /* Dekor till knappar */
+.btn a {                /* Dekor till knappar */
     display: inline-block;   
     background-color: #e6cebc;
     color: #8e412e;
@@ -170,7 +170,8 @@ nav ul.dropdown{              /* Rullgardinen */
     transition: 0.35s;
 }
 /*--------------------------Kontakt---------------------------*/
-.contactpage {
+/*placering av kontaktsida*/
+.contactpage {    
   margin: auto;
   text-align: center;
 }
@@ -182,6 +183,7 @@ nav ul.dropdown{              /* Rullgardinen */
   color:#000000a9;
 }
 
+/*storlek rubriker*/
 .contact h2 {
   font-size: 4rem;
 }
@@ -359,7 +361,7 @@ padding-bottom: 10px;
 
 
   /*-------------------------------Footer----------------------------------*/
-footer{
+footer {
     background-color: #687259;
     color: #a2a182;
     padding: 20px;
@@ -370,37 +372,37 @@ footer{
     display: flex;
   }
 
-  .navfooter ul{
+  .navfooter ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
   }
 
-  .navfooter li a{
+  .navfooter li a {
     display: block;
     color: #A2A182;
     font-size: 1em;
     font-weight: 1;
   }
 
-  .navfooter li a:hover{
+  .navfooter li a:hover {
     color:#f4ece2;
     text-decoration: underline;
   }
 
-  .icons{
+  .icons {
     display: flex;
     justify-content: flex-end;
     padding:5px;
   }
 
-  .menyfooter{
+  .menyfooter {
     justify-content: center;
     margin-left: 6%;
   }
 
-  footer h4{
+  footer h4 {
     margin-bottom: 20px;
   }
 
