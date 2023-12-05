@@ -153,6 +153,15 @@ nav ul.dropdown {              /* Rullgardinen */
     padding: 6px;
 }
 
+.hero-content-short {
+  margin-left: 100px;
+  width: 50%;
+}
+
+.hero-content-short h2{
+  margin-bottom: 6.5%;
+}
+
 /*--------------------------Knappar-------------------------*/
 
 .button-green-dark { /* Mörkgrön knappar med beige hovring */
@@ -438,15 +447,6 @@ padding-bottom: 50px;
 
 /*----------------------------Blog-------------------------*/
 /* Bloggen */
-
-.hero-content-blog {
-  margin-left: 100px;
-  width: 50%;
-}
-
-.hero-content-blog h2{
-  margin-bottom: 6.5%;
-}
 
 .bloggposts {
   padding: 4% 0% 8% 0%;
