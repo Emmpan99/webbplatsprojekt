@@ -821,6 +821,7 @@ div class="content"
 .preview-products{
   padding: 10px;
   height: fit-content;
+  background-color: #e6cebc;
 }
 
 .product-wrapper ul{
