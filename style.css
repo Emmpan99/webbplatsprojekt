@@ -851,4 +851,8 @@ div class="content"
   padding: 0 30%;
 }
 
+.button-red-light.preview{
+  max-width: fit-content;
+}
+
 /*-------------------------------*/
