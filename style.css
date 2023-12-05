@@ -413,15 +413,15 @@ footer {
 INDEX:
 section class="hero"
 div class="btn"
-section class="miljo"
-div class="miljo-atervinning"
-div class="miljo-konsumtion"
-div class="miljo-lokal"
+section class="homepage"
+div class="homepage-atervinning"
+div class="homepage-konsumtion"
+div class="homepage-lokal"
 section class="preview-products"
 div class="preview-products img"
 div class="btn"
 section class="preview-about">
-img src class="miljo logo"
+img src class="homepage logo"
 
 ABOUT:
 section class="vision"
@@ -781,12 +781,12 @@ nav ul.dropdown{
 
 /*-------------------------index-preview---------------------------*/
 
-.miljo{
+.homepage{
   min-height: 85vh;
   padding-top: 200px;
 }
 
-.miljobox{
+.homepagebox{
   width: fit-content;
   display: flex;
   flex: 1;
@@ -797,26 +797,26 @@ nav ul.dropdown{
 }
 
 @media (min-width: 850px) {
-  .miljo-box{
+  .homepage-box{
     flex-direction: row;
   }
 }
 
-.miljo-box{
+.homepage-box{
   padding: 20px;
 }
 
-.miljo h4{
+.homepage h4{
   font-size: 20px;
   padding: 10px;
 }
 
-.miljo p{
+.homepage p{
   padding: 0 20px;
   text-align: center;
 }
 
-.miljo-icon{
+.homepage-icon{
   width: 60px;
   padding: 10px;
 }
