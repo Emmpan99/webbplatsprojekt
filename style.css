@@ -198,7 +198,7 @@ nav ul.dropdown {              /* Rullgardinen */
   border-radius: 25px; 
 }
 
-.button-red-dark { /*  */
+.button-red-dark { /* Mörkröd knappar med beige hovring */
   display: inline-block;   
   background-color: #8e412e;
   color: #e6cebc;
@@ -216,7 +216,7 @@ nav ul.dropdown {              /* Rullgardinen */
   border-radius: 25px; 
 }
 
-.button-red-light { /*  */
+.button-red-light { /* Ljusröd knappar med beige hovring */
   display: inline-block;   
   background-color: #e6cebc;
   color: #8e412e;
