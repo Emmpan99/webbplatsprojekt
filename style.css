@@ -675,10 +675,7 @@ padding-bottom: 50px;
   margin: auto 0;
   background-color: #ffffff;
 }
-
-
-  /*------------------------------- Footer ----------------------------------*/
-
+/*----------------------------------- Footer -------------------------------------*/
 footer {
     background-color: #687259;
     color: #a2a182;
@@ -732,7 +729,6 @@ footer h4 {
     margin-bottom: 20px;
   }
 
-
 /*---------------------------------index------------------------------------*/
 .homepage {
   min-height: 85vh;
@@ -747,11 +743,9 @@ footer h4 {
   justify-content: space-between;
   padding-left: 4%;
 }
-
 @media (min-width: 850px) {
   .homepagebox{
-    flex-direction: row;
-  }
+    flex-direction: row;}
 }
 
 .homepage-box {
@@ -760,16 +754,14 @@ footer h4 {
 .homepage h3 {
   padding: 10px;
 }
-
 .homepage-box p {
   padding: 4%;
 }
-
 .homepage-icon {
   width: 60px;
   padding: 10px;
 }
-/*-----------------------------------*/
+/*-------------------------------------------*/
 .preview-products {
   height: fit-content;
   padding-bottom: 3%;
@@ -786,18 +778,16 @@ footer h4 {
   flex: 1;
   flex-direction: column;
 }
-
 @media (min-width: 850px) {
   .preview-products ul{
-    flex-direction: row;
-  }
+    flex-direction: row;}
 }
 
 .preview-products li {
   padding: 0.25%; 
 }
 
-/*---------------------------------*/
+/*----------------------------------------------*/
 .preview-about {
   margin: 5%;
   padding: 4% 20%;
@@ -811,4 +801,3 @@ footer h4 {
 .preview-about p {
   padding: 5%;
 }
-/*-------------------------------*/
