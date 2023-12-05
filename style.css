@@ -786,7 +786,7 @@ nav ul.dropdown{
   padding-top: 200px;
 }
 
-.box{
+.miljo-box{
   width: fit-content;
   display: flex;
   flex: 1;
@@ -797,13 +797,9 @@ nav ul.dropdown{
 }
 
 @media (min-width: 850px) {
-  .box{
+  .miljo-box{
     flex-direction: row;
   }
-}
-
-.miljo-box{
-  padding: 20px;
 }
 
 .miljo h4{
