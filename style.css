@@ -821,7 +821,8 @@ div class="content"
 .preview-products{
   height: fit-content;
   padding-bottom: 3%;
-  background-color: #e6cebc;
+  background-color: #ffff;
+  margin: 4%;
 }
 
 .preview-products ul{
@@ -848,19 +849,22 @@ div class="content"
 /*---------------------------------*/
 
 .preview-about{
+  margin: 5%;
   padding: 4% 20%;
-  
+  width: fit-content;
 }
 
 .preview-about-wrap{
   display: flex;
-  width: fit-content;
   flex-wrap: wrap;
   flex-direction: row;                                                                                                                                                                                                  
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0 10% 4% 10%;
+}
+
+.preview-about-wrap p{
+  padding: 0 20% 2% 20%;
 }
 
 
