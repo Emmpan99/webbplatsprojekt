@@ -517,7 +517,7 @@ padding-bottom: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   align-items: center;
 }
 
@@ -533,6 +533,9 @@ padding-bottom: 10px;
 }
 
 .category-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   background-color: #ffff;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
