@@ -262,6 +262,8 @@ nav ul.dropdown {              /* Rullgardinen */
 
 /*--------------------------Kontakt---------------------------*/
 
+//*--------------------------Kontakt---------------------------*/
+
 /*placering av kontaktsida*/
 .contactpage {    
   margin: auto;
@@ -278,24 +280,28 @@ nav ul.dropdown {              /* Rullgardinen */
 
 /*storlek rubriker*/
 .contact h2 {
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding: 30px;
 }
 
 .followusbtn .button-red-light {
 text-align: center;
-margin: 20px 15px 70px 15px;
 }
 
-.followusbtn .button-red-light a {
-  color: #8e412e;
+.followusbtn {
+  margin: 20px 15px 70px 15px;
 }
 
-.followusbtn .button-red-light a:hover {
-  color:#e6cebc;
+.followusbtn a {
+  color: inherit;
 }
 
-.followusbtn .button-red-light img {
+
+.followusbtn a:hover {
+  color: inherit;
+}
+
+.followusbtn img {
 vertical-align: bottom;
 }
 
