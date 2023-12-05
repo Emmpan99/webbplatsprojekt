@@ -61,23 +61,23 @@ nav {                /* Dimentioner på navbar */
 }
 
 .logo {                /* Om vi ska ha logga som hemknapp */
-    width: 34%;
-    position: relative;
-    align-content: left;
-    padding-left: 8%;
-    padding-top: 2%;
-    background-color: white;
+  width: 550px;
+  position: relative;
+  align-content: left;
+  padding-left: 8%;
+  padding-top: 2%;
+  background-color: white;
 }
 
 nav ul {                 /* Dekor runt listan */
-    list-style: none;
-    background-color: #687259;
-    width: 100%;
-    text-align: right;
-    padding-top: 2.5%;
-    padding-bottom: 3%;
-    padding-right: 8%;
-    background-color: white;
+  list-style: none;
+  background-color: #687259;
+  width: 100%;
+  text-align: right;
+  padding-top: 2.7%;
+  padding-bottom: 3.4%;
+  padding-right: 8%;
+  background-color: white;
 }
 
 nav ul li {               /* Dekor runt objekt i listan */
