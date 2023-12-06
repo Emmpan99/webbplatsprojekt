@@ -446,7 +446,7 @@ padding-bottom: 50px;
 }
 
 /*----------------------------Blog-------------------------*/
-/* Bloggen */
+
 
 .bloggposts {
   padding: 4% 0% 8% 0%;
@@ -457,7 +457,6 @@ padding-bottom: 50px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-
 }
 
 .content-box {
@@ -467,6 +466,21 @@ padding-bottom: 50px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.062);
 }
 
+.content-box img {
+  width: 100%;
+}
+
+.blog-post-gallery {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.blog-post-gallery img {
+  width: 49%;
+}
+
 .content-box ul li {
   margin: 22px 35px;
 }
@@ -474,6 +488,11 @@ padding-bottom: 50px;
 .content-box h3 {
   padding: 5% 0% 0% 0%;
   font-size: 2.2rem;
+}
+
+.content-box h4 {
+  padding: 3% 0% 1% 0%;
+  font-size: 1.2rem;
 }
 
 .bloggposts .content-box .datum {
