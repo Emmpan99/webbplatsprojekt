@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="sv">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +9,29 @@
 </head>
 
 <body>
+
     <header>
         <nav>
-            <div class="logo">
-                <a href="index.html"><img src="images/recycledesigns-logo.svg" alt="Logo"></a>
-              </div>
-                    <ul> 
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="about.html">Om oss</a></li>
-                <li><a href="products.html">Produkter</a>
-                    <ul class="dropdown"> 
-                        <li><a href="products.html#chairs">Sittmöbler</a></li>
-                        <li><a href="products.html#decoration">Dekoration</a></li>
-                        <li><a href="products.html#bedframes">Sängramar</a></li>
-                        <li><a href="products.html#misc">Övrigt</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Kontakt</a></li>
-                <li><a href="blog.html">Blogg</a></li>
-            </ul>
+          <div class="logo">
+            <a href="index.html"><img src="images/recycledesigns-logo.svg" alt="Logo"></a> <!-- Site ID -->
+          </div> 
+          <!-- Primary Navigation / Huvudmenyn -->
+          <ul> 
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="about.html">Om oss</a></li>
+            <li><a href="products.html">Produkter</a>
+              <ul class="dropdown">      <!-- Dropdown -->
+                <li><a href="products.html#chairs">Sittmöbler</a></li>
+                <li><a href="products.html#decoration">Dekoration</a></li>
+                <li><a href="products.html#bedframes">Sängramar</a></li>
+                <li><a href="products.html#misc">Övrigt</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="blog.html">Blogg</a></li>
+          </ul>
         </nav>
-
-
+      <!-- Hero sektionen innehåll -->
         <section class="hero" style="background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.792) 20%, rgba(0, 0, 0, 0)), url(images/pictures/hero_flowepot.webp);">
             <div class="hero-content-short">
                 <h2>Bloggen</h2>
@@ -40,15 +40,15 @@
             </div>
             </div>
         </section>
-
     </header>
 
-
+    <main>
+    <!--------- Blogginlägg --------->
     <section class="bloggposts">
         <article class="content-box">
-            <h3 id="blogpost1">Design av Möbler med Hållbarhet som Prioritet</h3>
-            <p class="datum">28 november 2023 / Kategori </p>
-            <div class="blog-post-gallery">
+            <h3 id="blogpost1">Design av Möbler med Hållbarhet som Prioritet</h3>     <!--------- Blogginlägg rubrik --------->
+            <p class="datum">28 november 2023 / Kategori </p>      <!--------- Datum och kategori --------->
+            <div class="blog-post-gallery">      <!--------- Bildgalleri --------->
                 <img src="images/pictures/small_sideboard.jpg" alt="Sideboard i blått och rött">
                 <img src="images/pictures/small_armchairs_outside.jpg" alt="Två gröna fåtöljer utomhus">
             </div>
@@ -187,6 +187,7 @@
                 emot att fortsätta att växa och utveckla vår butik i enlighet med våra värderingar och vision.</p>
         </article>
     </section>
+</main>
 
 <!--------- Footer --------->
 <footer>
