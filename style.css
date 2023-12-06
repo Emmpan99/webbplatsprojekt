@@ -59,7 +59,6 @@ nav {                /* Dimentioner på navbar */
 .logo {                /* Logotyp och Site ID */
   width: 550px;
   position: relative;
-  align-content: left;
   padding-left: 8%;
   padding-top: 2%;
   background-color: white;
@@ -559,7 +558,6 @@ padding-bottom: 50px;
   font-size: 15px;
   letter-spacing: 0.6px;
   padding: 20px 0px 0px 0px;
-  text-transform: versaler;
   text-transform: uppercase;
 }
 
