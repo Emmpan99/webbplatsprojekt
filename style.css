@@ -242,116 +242,84 @@ nav ul.dropdown {              /* Rullgardinen */
   margin-bottom: 6.5%;
 }
 
-/*--------------------------Kontakt---------------------------*/
 
-.contactpage {           /* Placering av kontaktsida */
-  margin: auto;
-  text-align: center;
-  background-color: #ffffff;
+/*---------------------------------index------------------------------------*/
+.homepage {
+  min-height: 85vh;
+  margin: 3% 5%;
 }
 
-.contact {
-  padding: 40px;
-  padding-bottom: 2px;
-  margin: 10px;
-  color:#000000a9;
+.homepagebox {
+  width: fit-content;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 4%;
+}
+@media (min-width: 850px) {
+  .homepagebox{
+    flex-direction: row;}
 }
 
-.contact h2 {           /* Storlek rubriker */
-  font-size: 2.8rem;
-  padding: 30px;
+.homepage-box {
+  padding-top: 1%;
+}
+.homepage h3 {
+  padding: 10px;
+}
+.homepage-box p {
+  padding: 4%;
+}
+.homepage-icon {
+  width: 60px;
+  padding: 10px;
+}
+/*-------------------------------------------*/
+.preview-products {
+  height: fit-content;
+  padding-bottom: 3%;
+  background-color: #ffff;
+  margin: 3%;
 }
 
-.followusbtn .button-red-light {
-text-align: center;
+.preview-products .vision {
+  padding-bottom: 5%;
 }
 
-.followusbtn {
-  margin: 20px 15px 70px 15px;
+.preview-products ul {
+  padding: 0 2% 2% 2%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+}
+@media (min-width: 850px) {
+  .preview-products ul{
+    flex-direction: row;}
 }
 
-.followusbtn a {
-  color: inherit;
+.preview-products li {
+  padding: 0.25%; 
 }
 
-.followusbtn a:hover {
-  color: inherit;
+/*----------------------------------------------*/
+.preview-about {
+  margin: 5%;
+  padding: 4% 20%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.followusbtn img {
-vertical-align: bottom;
+.preview-about p {
+  padding: 5%;
 }
 
-.collapsebackground {
-background-color: #f4ece2;
-padding-bottom: 50px;
-}
-
-/*----------------------------Collapse----------------------------*/
-
-.accordion > input[type="checkbox"] {
-  position: fixed;
-}
-
-.accordion .content {
-  overflow-y: hidden;
-  height: 0;
-  transition: height 0.3s ease;
-  font-family: sans-serif;
-  font-size: 15px;
-  color: #e6cebc;
-  background-color: #a2a182;
-  max-width: 586px;
-  margin: auto;
-  display: block;
-}
-
-.accordion > input[type="checkbox"]:checked ~ .content {
-  height: auto;
-  overflow: visible;
-  padding-top: 3px;
-  border-radius:25px;
-  padding:15px;
-  border-top: 2px solid #f5efe7;
-  transition: 0.35s;
-}
-
-.accordion label{
-  display: block;
-  border-radius: 25px;
-}
-
-.accordion{
-  margin-bottom: 1em;
-}
-
-.accordion .content p {
-  color: #e6cebc;
-}
-
-.accordion .question {
-  max-width: 615px;
-  font-size: 15px;
-  line-height: 20px;
-  font-family: sans-serif;
-  margin: auto;
-  display: block;
-  border-radius: 50%;
-}
-
-.accordion label {
-  color: #e6cebc;
-  cursor: pointer;
-  font-weight: normal;
-  padding: 15px;
-  background: #8e412e;
-}
-
-
-.accordion label:hover {
-  background: #a2a182;
-  transition: 0.35s;
-}
 
 /*----------------------------About----------------------------*/
 
@@ -375,6 +343,10 @@ padding-bottom: 50px;
   letter-spacing: 1px;
   margin-bottom: 2%;
   color: #687259;
+}
+
+.preview-products .vision { 
+  padding-bottom: 5%;
 }
 
 #blog {             /* Sektion - Preview av blogginlägg */
@@ -448,65 +420,6 @@ padding-bottom: 50px;
   color: #8e412e;
   transition: all ease 0.3s;
 }
-
-/*----------------------------Blog-------------------------*/
-
-
-.bloggposts {                /* Sektion för varje enskilt blogginlägg */
-  padding: 4% 0% 8% 0%;
-  display: flex;
-  width: 71%;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.content-box {            /* Innehållet i blogginlägget */
-  background-color: #ffffff;
-  padding: 4% 11% 7% 11%;
-  margin: -170px 0px 100px 10px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.062);
-}
-
-.content-box img {           /* Fullstora bilder */
-  width: 100%;
-}
-
-.blog-post-gallery {              /* Bildgaller */
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  vertical-align: top;
-}
-
-.blog-post-gallery img {
-  width: 49%;
-}
-
-.content-box ul li {           /* Punktlistor i blogginläggen */
-  margin: 22px 35px;
-}
-
-.content-box h3 {
-  padding: 5% 0% 0% 0%;
-  font-size: 2.2rem;
-}
-
-.content-box h4 {
-  padding: 3% 0% 1% 0%;
-  font-size: 1.2rem;
-}
-
-.bloggposts .content-box .datum {           /* Datum och kategori för blogginläggen */
-  font-size: 14px;
-  font-style: italic;
-  color: #7b7b7bc5;
-  letter-spacing: 0.8px;
-  padding-bottom: 4%;
-}
-
 
 /*------------------------- Produkter ------------------------------*/
 
@@ -660,6 +573,176 @@ padding-bottom: 50px;
   background-color: #ffffff;
 }
 
+/*--------------------------Kontakt---------------------------*/
+
+.contactpage {           /* Placering av kontaktsida */
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.contact {
+  padding: 40px;
+  padding-bottom: 2px;
+  margin: 10px;
+  color:#000000a9;
+}
+
+.contact h2 {           /* Storlek rubriker */
+  font-size: 2.8rem;
+  padding: 30px;
+}
+
+.followusbtn .button-red-light {
+text-align: center;
+}
+
+.followusbtn {
+  margin: 20px 15px 70px 15px;
+}
+
+.followusbtn a {
+  color: inherit;
+}
+
+.followusbtn a:hover {
+  color: inherit;
+}
+
+.followusbtn img {
+vertical-align: bottom;
+}
+
+.collapsebackground {
+background-color: #f4ece2;
+padding-bottom: 50px;
+}
+
+/*----------------------------Collapse----------------------------*/
+
+.accordion > input[type="checkbox"] {
+  position: fixed;
+}
+
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #e6cebc;
+  background-color: #a2a182;
+  max-width: 586px;
+  margin: auto;
+  display: block;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+  padding-top: 3px;
+  border-radius:25px;
+  padding:15px;
+  border-top: 2px solid #f5efe7;
+  transition: 0.35s;
+}
+
+.accordion label{
+  display: block;
+  border-radius: 25px;
+}
+
+.accordion{
+  margin-bottom: 1em;
+}
+
+.accordion .content p {
+  color: #e6cebc;
+}
+
+.accordion .question {
+  max-width: 615px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: sans-serif;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.accordion label {
+  color: #e6cebc;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #8e412e;
+}
+
+
+.accordion label:hover {
+  background: #a2a182;
+  transition: 0.35s;
+}
+
+
+/*----------------------------Blog-------------------------*/
+
+.bloggposts {                /* Sektion för varje enskilt blogginlägg */
+  padding: 4% 0% 8% 0%;
+  display: flex;
+  width: 71%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.content-box {            /* Innehållet i blogginlägget */
+  background-color: #ffffff;
+  padding: 4% 11% 7% 11%;
+  margin: -170px 0px 100px 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.062);
+}
+
+.content-box img {           /* Fullstora bilder */
+  width: 100%;
+}
+
+.blog-post-gallery {              /* Bildgaller */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.blog-post-gallery img {
+  width: 49%;
+}
+
+.content-box ul li {           /* Punktlistor i blogginläggen */
+  margin: 22px 35px;
+}
+
+.content-box h3 {
+  padding: 5% 0% 0% 0%;
+  font-size: 2.2rem;
+}
+
+.content-box h4 {
+  padding: 3% 0% 1% 0%;
+  font-size: 1.2rem;
+}
+
+.bloggposts .content-box .datum {           /* Datum och kategori för blogginläggen */
+  font-size: 14px;
+  font-style: italic;
+  color: #7b7b7bc5;
+  letter-spacing: 0.8px;
+  padding-bottom: 4%;
+}
+
+
 /*----------------------------------- Footer -------------------------------------*/
 
 footer {
@@ -745,6 +828,7 @@ transition: all 0.3s ease;
 color: #f4ece2;
 }
 
+
 /* -------------------------- Copyright ----------------------------- */
 
 #copyright {
@@ -772,82 +856,4 @@ color: #f4ece2;
 
 #copyright p a:hover {
     color: #ffffff;
-}
-
-
-/*---------------------------------index------------------------------------*/
-.homepage {
-  min-height: 85vh;
-  margin: 3% 5%;
-}
-
-.homepagebox {
-  width: fit-content;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 4%;
-}
-@media (min-width: 850px) {
-  .homepagebox{
-    flex-direction: row;}
-}
-
-.homepage-box {
-  padding-top: 1%;
-}
-.homepage h3 {
-  padding: 10px;
-}
-.homepage-box p {
-  padding: 4%;
-}
-.homepage-icon {
-  width: 60px;
-  padding: 10px;
-}
-/*-------------------------------------------*/
-.preview-products {
-  height: fit-content;
-  padding-bottom: 3%;
-  background-color: #ffff;
-  margin: 3%;
-}
-
-.preview-products .vision {
-  padding-bottom: 5%;
-}
-
-.preview-products ul {
-  padding: 0 2% 2% 2%;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  flex: 1;
-  flex-direction: column;
-}
-@media (min-width: 850px) {
-  .preview-products ul{
-    flex-direction: row;}
-}
-
-.preview-products li {
-  padding: 0.25%; 
-}
-
-/*----------------------------------------------*/
-.preview-about {
-  margin: 5%;
-  padding: 4% 20%;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.preview-about p {
-  padding: 5%;
 }
