@@ -815,6 +815,10 @@ color: #f4ece2;
   margin: 3%;
 }
 
+.preview-products .vision {
+  padding-bottom: 5%;
+}
+
 .preview-products ul {
   padding: 0 2% 2% 2%;
   list-style: none;
