@@ -444,12 +444,14 @@ nav ul.dropdown {              /* Rullgardinen */
 .product-categories h3{
   font-size: 20px;
   letter-spacing: 1px;
-  padding-bottom: 1%;
+  padding-bottom: 0.8%;
   color: #687259;
 }
+
 .product-categories h2{
   width: 75%;
   font-size: 40px;
+  margin-bottom: 3%;
 }
 
 .category-container {
