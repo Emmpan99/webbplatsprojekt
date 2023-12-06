@@ -7,6 +7,7 @@ Mörkgrön = #687259
 Ljusare beige = #f4ece2
 Bakgrundfärg = #f5efe7
 */
+
 /* ----------------------- Hemsidans grund ------------------ */
 * {
   box-sizing: content-box;
@@ -372,7 +373,7 @@ padding-bottom: 50px;
 /*----------------------------Blog-------------------------*/
 
 
-.bloggposts {
+.bloggposts {                /* Sektion för varje enskilt blogginlägg */
   padding: 4% 0% 8% 0%;
   display: flex;
   width: 71%;
@@ -383,18 +384,18 @@ padding-bottom: 50px;
   margin: 0 auto;
 }
 
-.content-box {
+.content-box {            /* Innehållet i blogginlägget */
   background-color: #ffffff;
   padding: 4% 11% 7% 11%;
   margin: -170px 0px 100px 10px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.062);
 }
 
-.content-box img {
+.content-box img {           /* Fullstora bilder */
   width: 100%;
 }
 
-.blog-post-gallery {
+.blog-post-gallery {              /* Bildgaller */
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -405,7 +406,7 @@ padding-bottom: 50px;
   width: 49%;
 }
 
-.content-box ul li {
+.content-box ul li {           /* Punktlistor i blogginläggen */
   margin: 22px 35px;
 }
 
@@ -419,7 +420,7 @@ padding-bottom: 50px;
   font-size: 1.2rem;
 }
 
-.bloggposts .content-box .datum {
+.bloggposts .content-box .datum {           /* Datum och kategori för blogginläggen */
   font-size: 14px;
   font-style: italic;
   color: #7b7b7bc5;
@@ -596,7 +597,7 @@ footer {
   gap: 10px;
 }
 
-.footer-content { /* Kapslar in de olika kolumnerna/boxarna */
+.footer-content {         /* Kapslar in de olika kolumnerna/boxarna */
   width: 89%;
   padding-top: 4%;
   display: flex;
@@ -607,14 +608,14 @@ footer {
   vertical-align: top;
 }
 
-.footer-logo {
+.footer-logo {          /* Logotyp i footern */
   padding-top: 5%;
   padding-right: 7%;
   padding-left: 10%;
   width: 350px;
 }
 
-.footer-product-menu, .footer-menu {
+.footer-menu, .footer-product-menu {           /* Primary navigation och Secondary navigation (Product menu) */
   width: 10%;
   vertical-align: top;
 }
@@ -624,7 +625,7 @@ footer {
   line-height: 1.9;
 }
 
-.footer-contact {
+.footer-contact {           /* Kontaktuppgifter */
   display: flex;
   width: 30%;
   flex-direction: column;
@@ -634,7 +635,7 @@ footer {
   color: #f1f1f17e;
 }
 
-.icons {
+.icons {           /* Facebook och instagram-ikoner */
   display: flex;
   gap: 1%;
   align-items: end;
@@ -662,9 +663,11 @@ color: #f1f1f17e;
 transition: all 0.3s ease;
 }
 
-.footer-content ul li a:hover {
+.footer-content ul li a:hover {           /* Hovring länkarna i footer */
 color: #f4ece2;
 }
+
+/* -------------------------- Copyright ----------------------------- */
 
 #copyright {
     width: 100%;
@@ -770,7 +773,9 @@ color: #f4ece2;
 
 /*--------------------------Knappar-------------------------*/
 
-.button-green-dark { /* Mörkgrön knappar med beige hovring */
+/*---------Knappar Gröna---------*/
+
+.button-green-dark {                /* Mörkgrön knappar med beige hovring */
   display: inline-block;   
   background-color: #687259;
   color: #e6cebc;
@@ -788,7 +793,7 @@ color: #f4ece2;
   border-radius: 25px; 
 }
 
-.button-green-light { /* Ljusgrön knappar med beige hovring */
+.button-green-light {                 /* Ljusgrön knappar med beige hovring */
   display: inline-block;   
   background-color: #e6cebc;
   color: #687259;
@@ -806,7 +811,9 @@ color: #f4ece2;
   border-radius: 25px; 
 }
 
-.button-red-dark { /* Mörkröd knappar med beige hovring */
+/*---------Knappar Röda---------*/
+
+.button-red-dark {                /* Mörkröd knappar med beige hovring */
   display: inline-block;   
   background-color: #8e412e;
   color: #e6cebc;
@@ -824,7 +831,7 @@ color: #f4ece2;
   border-radius: 25px; 
 }
 
-.button-red-light { /* Ljusröd knappar med beige hovring */
+.button-red-light {                 /* Ljusröd knappar med beige hovring */
   display: inline-block;   
   background-color: #e6cebc;
   color: #8e412e;
