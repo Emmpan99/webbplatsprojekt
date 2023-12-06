@@ -234,12 +234,14 @@ nav ul.dropdown {              /* Rullgardinen */
 }
 
 .hero-content-short {         /* Kortare version av content i hero */
+  padding-left: 10%;
   margin-left: 100px;
   width: 50%;
 }
 
 .hero-content-short h2{
-  margin-bottom: 6.5%;
+  margin-bottom: 2%;
+  font-size: 5rem;
 }
 
 
