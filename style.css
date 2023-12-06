@@ -620,7 +620,7 @@ padding-bottom: 50px;
 
 /*----------------------------Collapse----------------------------*/
 
-.accordion > input[type="checkbox"] {
+.accordion > input[type="checkbox"] { /*collapse gjorda som checkbox*/
   position: fixed;
 }
 
